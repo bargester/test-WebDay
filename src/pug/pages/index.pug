@@ -1,0 +1,21 @@
+doctype html
+html(lang="ru-RU")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="static/css/main.css")
+        title Test WebDay
+    body
+        header.header
+            nav.container.nav
+                a(href="/").nav__link
+                    img(src="static/img/general/logo.png").nav__logo
+                a(href="tel:+380687047468").nav__tel +380 68 704 74-68
+        .intro
+            video.video(id="video" width='100%', height='auto', preload='auto', autoplay='autoplay', loop='loop' muted="muted")
+                source(src='static/img/general/Preview.mp4', type='video/mp4')
+                source(src='static/img/general/Preview.webm', type='video/webm')
+            h1.title-main Эффективное, действенное продвижение
+            a(href="#").btn Консультация
+        p.text-neon beta
+        script(src="static/js/main.js")

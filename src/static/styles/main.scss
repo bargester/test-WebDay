@@ -1,0 +1,14 @@
+//libs
+@import "libs/reset";
+//@import "../../../node_modules/slick-carousel/slick/slick.scss";
+@import "libs/fonts";
+
+//Partials
+@import "partials/generals";
+@import "partials/keyframes";
+@import "partials/variable";
+@import "partials/mixins";
+@import "partials/media";
+
+//Pages
+@import "components/header";
